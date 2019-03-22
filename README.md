@@ -11,3 +11,6 @@ http://www.informit.com/articles/article.aspx?p=328646&seqNum=6
 
 All the steps of the first link are in the Unit - variously commented out, and new procedure versions added.
 
+Another nice basic reference.      
+http://15462.courses.cs.cmu.edu/spring2018content/lectures/00_opengl/00_opengl_slides.pdf
+
