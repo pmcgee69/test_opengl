@@ -193,16 +193,11 @@ begin
      z   := 0.0;
      rot := 0.0;
      while rot <= pi do begin
-       // First endpoint of line
-       x := 2.0 * sin(rot);
-       y := 2.0 * cos(rot);
+       x := 2.0 * sin(rot);        y := 2.0 * cos(rot);        // First endpoint of line
        glVertex3f(x, y, z);
-       // Second endpoint of line
-       x := 2.0 * sin(rot + pi);
-       y := 2.0 * cos(rot + pi);
+       x := 2.0 * sin(rot + pi);   y := 2.0 * cos(rot + pi);   // Second endpoint of line
        glVertex3f(x, y, z);
-       // next line
-       rot := rot + (pi/20);
+       rot := rot + (pi/20);                                   // next line
      end;
    glEnd();
    }
